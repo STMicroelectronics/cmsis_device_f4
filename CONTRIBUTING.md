@@ -18,4 +18,18 @@ But check the following boxes before posting an issue:
 When you have checked the previous boxes. You will find two templates Issues (Bug Report or Other Issue) available in the **Issues** tab of the repo
 
 ### 3. Pull Requests
-For the moment, the Pull Request feature is not deployed. STMicrolectronics is working on a Contributor License Agreement procedure
+STMicrolectronics is happy to receive contributions from the community, based on an initial Contributor License Agreement (CLA) procedure.
+
+**From April 7th 2020**
+
+* If you are an individual writing original source code and you are sure you own the intellectual property, then you need to sign an Individual CLA (https://cla.st.com)
+* If you work for a company that wants also to allow you to contribute your work, your company needs to provide a Corporate CLA (https://cla.st.com) mentioning your GitHub account name
+* If you’re not sure that a CLA (Individual or Corporate) has been signed for your GitHub account you can check here (https://cla.st.com). Please note that Corporate CLA will always take precedence over Individual CLA
+
+One CLA submition is sufficient, for any project proposed by STMicroelectronics
+
+#### How to proceed
+
+* We recommend to engage first a communication thru an **Issue**, in order to present your proposal. Just to confirm that it correspond to STMicroelectronics domain or scope.
+* Then fork the project in your GitHub account to further develop your contribution. Please use the latest commit version.
+* Please, submit one Pull Request for one new feature or proposal. This will ease the analysis and final merge if accepted
