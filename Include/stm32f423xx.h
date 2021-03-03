@@ -12,29 +12,13 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; COPYRIGHT(c) 2017 STMicroelectronics</center></h2>
+  * <h2><center>&copy; Copyright (c) 2017 STMicroelectronics.
+  * All rights reserved.</center></h2>
   *
-  * Redistribution and use in source and binary forms, with or without modification,
-  * are permitted provided that the following conditions are met:
-  *   1. Redistributions of source code must retain the above copyright notice,
-  *      this list of conditions and the following disclaimer.
-  *   2. Redistributions in binary form must reproduce the above copyright notice,
-  *      this list of conditions and the following disclaimer in the documentation
-  *      and/or other materials provided with the distribution.
-  *   3. Neither the name of STMicroelectronics nor the names of its contributors
-  *      may be used to endorse or promote products derived from this software
-  *      without specific prior written permission.
-  *
-  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-  * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-  * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-  * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-  * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-  * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  * This software component is licensed by ST under BSD 3-Clause license,
+  * the "License"; You may not use this file except in compliance with the
+  * License. You may obtain a copy of the License at:
+  *                        opensource.org/licenses/BSD-3-Clause
   *
   ******************************************************************************
   */
@@ -6863,17 +6847,18 @@ typedef struct
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bits definition for FLASH_ACR register  *****************/
-#define FLASH_ACR_LATENCY_Pos          (0U)                                    
-#define FLASH_ACR_LATENCY_Msk          (0xFUL << FLASH_ACR_LATENCY_Pos)         /*!< 0x0000000F */
-#define FLASH_ACR_LATENCY              FLASH_ACR_LATENCY_Msk                   
-#define FLASH_ACR_LATENCY_0WS          0x00000000U                             
-#define FLASH_ACR_LATENCY_1WS          0x00000001U                             
-#define FLASH_ACR_LATENCY_2WS          0x00000002U                             
-#define FLASH_ACR_LATENCY_3WS          0x00000003U                             
-#define FLASH_ACR_LATENCY_4WS          0x00000004U                             
-#define FLASH_ACR_LATENCY_5WS          0x00000005U                             
-#define FLASH_ACR_LATENCY_6WS          0x00000006U                             
-#define FLASH_ACR_LATENCY_7WS          0x00000007U                             
+#define FLASH_ACR_LATENCY_Pos          (0U)
+#define FLASH_ACR_LATENCY_Msk          (0x7UL << FLASH_ACR_LATENCY_Pos)         /*!< 0x00000007 */
+#define FLASH_ACR_LATENCY              FLASH_ACR_LATENCY_Msk
+#define FLASH_ACR_LATENCY_0WS          0x00000000U
+#define FLASH_ACR_LATENCY_1WS          0x00000001U
+#define FLASH_ACR_LATENCY_2WS          0x00000002U
+#define FLASH_ACR_LATENCY_3WS          0x00000003U
+#define FLASH_ACR_LATENCY_4WS          0x00000004U
+#define FLASH_ACR_LATENCY_5WS          0x00000005U
+#define FLASH_ACR_LATENCY_6WS          0x00000006U
+#define FLASH_ACR_LATENCY_7WS          0x00000007U
+
 
 #define FLASH_ACR_PRFTEN_Pos           (8U)                                    
 #define FLASH_ACR_PRFTEN_Msk           (0x1UL << FLASH_ACR_PRFTEN_Pos)          /*!< 0x00000100 */

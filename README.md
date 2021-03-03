@@ -19,14 +19,20 @@ Two models of publication are proposed for the STM32Cube embedded software :
 
 This **cmsis_device_f4** MCU component repo is one element of the STM32CubeF4 MCU embedded software package, providing the **cmsis device** part.
 
+## Release note
+
+Details about the content of this release are available in the release note [here](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/cmsis_device_f4/blob/master/Release_Notes.html).
+
 ## Compatibility information
 
 In this table, you can find the successive versions of this CMSIS Device component, in-line with the corresponding versions of the full MCU package:
 
 CMSIS Device F4 | CMSIS Core | Was delivered in the full MCU package
 --------------- | ---------- | -------------------------------------
-Tag v2.6.3 | Tag v5.4.0_cm4 | Tag v1.24.1 (and following, if any, till next new tag)
-Tag v2.6.4 | Tag v5.4.0_cm4 | Tag v1.24.2 (and following, if any, till next new tag)
+Tag v2.6.5 | Tag v5.4.0_cm4 | Tag v1.25.0
+Tag v2.6.5 | Tag v5.4.0_cm4 | Tag v1.25.1
+Tag v2.6.5 | Tag v5.4.0_cm4 | Tag v1.25.2
+Tag v2.6.6 | Tag v5.4.0_cm4 | Tag v1.26.0
 
 The full **STM32CubeF4** MCU package is available [here](https://github.com/STMicroelectronics/STM32CubeF4).
 
